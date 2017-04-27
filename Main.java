@@ -54,5 +54,7 @@ public class Main {
 
     private static void trainOnData(int epoches){
 
+	
+	
     }
 }
