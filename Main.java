@@ -64,7 +64,7 @@ public class Main {
     }
 
     private static void trainOnData(int epoches){
-
+	
 	agent = new LSTM(r, data_size, data_size, cell_blocks);
 	int input_count = 0;
 	int input_max = AGENT_INPUT.size() - 1;
@@ -102,6 +102,7 @@ public class Main {
 	    if(input_count == input_max)
 		input_count = 0;
 	}//end of main training loop
-	    
+
+	
     }
 }
