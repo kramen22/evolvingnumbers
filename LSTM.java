@@ -1,4 +1,4 @@
-package javastuff;
+package evolvingnumbers;
 
 import java.util.*;
 

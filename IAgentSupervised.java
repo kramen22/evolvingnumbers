@@ -1,4 +1,4 @@
-package javastuff;
+package evolvingnumbers;
 
 public interface IAgentSupervised 
 {

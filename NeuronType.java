@@ -1,4 +1,4 @@
-package javastuff;
+package evolvingnumbers;
 
 public enum NeuronType 
 {

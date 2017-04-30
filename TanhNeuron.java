@@ -1,4 +1,4 @@
-package javastuff;
+package evolvingnumbers;
 
 public class TanhNeuron extends Neuron
 {
