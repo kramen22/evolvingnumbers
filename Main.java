@@ -18,11 +18,13 @@ public class Main {
 
 	int validData = importData();
 
+	// Attempt to read the data and then check the return value, return on failure.
 	if(validData == 1){
 	    System.out.println("The data has not been imported correctly.");
 	    return;
 	}
 
+	// LSTM throws exception when calling next and on creation, both occur in trainOnData
 	try{
 	trainOnData(TRAINING_EPOCHES);
 	} catch(Exception e){
@@ -40,6 +42,7 @@ public class Main {
 	return;
     }
 
+    // A simple percentage error between two same size arrays of doubles, the input and output of the LSTM
     private static void printError(double[] input, double[] output){
 	double[] error = new double[input.length];
 
